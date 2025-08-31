@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<index version="1.0">
-  <class name="ranger_revised.xml" url="https://raw.githubusercontent.com/Dude6626/aurora-ranger-revised/master/user-Xsardas/ranger_revised.xml" />
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>ranger-revised</name>
+		<update version="1.0.0">
+			<file name="user-yourname.index" url="https://raw.githubusercontent.com/Dude6626/aurora-ranger-revised/master/user-Xsardas.index" />
+		</update>
+	</info>
+	<files>
+		<file name="ranger_revised.xml" url="https://raw.githubusercontent.com/Dude6626/aurora-ranger-revised/master/user-Xsardas/ranger_revised.xml" />
+	</files>
 </index>
