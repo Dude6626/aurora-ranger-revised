@@ -1,1 +1,63 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <class name="Ranger (Revised)" source="UA: Ranger Revised" hit-die="d10">
+    <description>Revised Ranger from Unearthed Arcana (2016).</description>
+    <proficiencies armor="light, medium, shields" weapons="simple, martial" tools="" saves="str, dex" skills="3:animal handling, athletics, insight, investigation, nature, perception, stealth, survival" />
+    <spellcasting ability="wis" progression="half" known="yes" prepared="no" />
+    <levels>
+      <level index="1">
+        <feature>Favored Enemy</feature>
+        <feature>Natural Explorer</feature>
+      </level>
+      <level index="2">
+        <feature>Fighting Style</feature>
+        <feature>Spellcasting</feature>
+      </level>
+      <level index="3">
+        <feature>Primeval Awareness</feature>
+        <feature>Ranger Conclave</feature>
+      </level>
+      <level index="4"><feature>Ability Score Improvement</feature></level>
+      <level index="5"><feature>Ranger Conclave Feature</feature></level>
+      <level index="6"><feature>Greater Favored Enemy</feature></level>
+      <level index="7"><feature>Ranger Conclave Feature</feature></level>
+      <level index="8"><feature>Ability Score Improvement</feature><feature>Fleet of Foot</feature></level>
+      <level index="9" />
+      <level index="10"><feature>Hide in Plain Sight</feature></level>
+      <level index="11"><feature>Ranger Conclave Feature</feature></level>
+      <level index="12"><feature>Ability Score Improvement</feature></level>
+      <level index="13" />
+      <level index="14"><feature>Vanish</feature></level>
+      <level index="15"><feature>Ranger Conclave Feature</feature></level>
+      <level index="16"><feature>Ability Score Improvement</feature></level>
+      <level index="17" />
+      <level index="18"><feature>Feral Senses</feature></level>
+      <level index="19"><feature>Ability Score Improvement</feature></level>
+      <level index="20"><feature>Foe Slayer</feature></level>
+    </levels>
+    <subclasses>
+      <subclass name="Beast Conclave" source="UA: Ranger Revised">
+        <feature level="3">Animal Companion</feature>
+        <feature level="5">Coordinated Attack</feature>
+        <feature level="7">Beast's Defense</feature>
+        <feature level="11">Storm of Claws and Fangs</feature>
+        <feature level="15">Superior Beast’s Defense</feature>
+      </subclass>
+      <subclass name="Hunter Conclave" source="UA: Ranger Revised">
+        <feature level="3">Hunter’s Prey</feature>
+        <feature level="5">Extra Attack</feature>
+        <feature level="7">Defensive Tactics</feature>
+        <feature level="11">Multiattack</feature>
+        <feature level="15">Superior Hunter’s Defense</feature>
+      </subclass>
+      <subclass name="Deep Stalker Conclave" source="UA: Ranger Revised">
+        <feature level="3">Underdark Scout</feature>
+        <feature level="3">Deep Stalker Magic</feature>
+        <feature level="5">Extra Attack</feature>
+        <feature level="7">Iron Mind</feature>
+        <feature level="11">Stalker’s Flurry</feature>
+        <feature level="15">Stalker’s Dodge</feature>
+      </subclass>
+    </subclasses>
+  </class>
+</root>
